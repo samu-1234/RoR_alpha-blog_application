@@ -1,0 +1,10 @@
+<h1>Show Article Record</h1>
+
+<p>Title:<%= @article.title %></p>				
+<p>Description:<%= @article.body %></p>
+
+<p>
+	<%= link_to "Back to Index Page", articles_path %> ||
+
+	<%= link_to "Edit", edit_article_path(@article)%>
+</p>
